@@ -5,7 +5,7 @@ services:
   plan: starter
   buildCommand: yarn; yarn build
   startCommand: yarn start
-  autoDeploy: no
+  autoDeploy triggers: commit
   envVars:
   - key: NODE_ENV
     value: production
